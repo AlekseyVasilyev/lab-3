@@ -7,9 +7,9 @@ body{
     height:100%;
     width:95%;
     margin:20px 0 20px 0;
-    /* background-color: aqua; */
     box-shadow: 1px 1px 3px 1px black;
     border:1pxsolid black;
+    padding-bottom: 20px;
 }
 .class p{
     margin-left:10px;
@@ -23,8 +23,15 @@ body{
 }
 .class1{
     border:1px dotted black;
-    width:80%;
-    height:100%;
+    width:95%;
+    margin-left: 2.5%;
     display: flex;
     flex-direction: column;
+}
+/* .class1 p{
+    border-bottom: 1px dotted black;
+    padding-bottom: 10px;
+} */
+.class1 h4{
+    margin:15px 10px;
 }
